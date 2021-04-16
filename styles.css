@@ -24,6 +24,7 @@ p {
   font-size: 2em;
   text-align: center;
   color: white;
+  margin-top: 100px;
 }
 
 body {
@@ -31,6 +32,6 @@ body {
   background: black;
 }
 
-.btn-div {
+.pad-div {
   margin-top: 100px;
 }
