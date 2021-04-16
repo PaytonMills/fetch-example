@@ -12,7 +12,7 @@ function getQuote() {
 
 function updateQuoteSrc(src) {
   /* Get the quote text element */
-  let p = document.querySelector("p");
+  let p = document.createTextNode("p");
   /* Update its src*/
   p.src = src;
 }
