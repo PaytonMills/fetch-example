@@ -5,7 +5,7 @@ function setup() {
 }
 
 function getQuote() {
-  fetch("https://api.kanye.rest?format=text")
+  fetch("https://api.kanye.rest")
     .then(response => response.json())
     .then(data => updateQuoteSrc(data.file));
 }
