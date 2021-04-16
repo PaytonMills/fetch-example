@@ -12,13 +12,14 @@ function getQuote() {
 
 function updateQuoteSrc(src) {
   /* Get the quote text element */
-  var tag = document.createElement("p");
-  var text = document.createTextNode("Kanye says this");
-  tag.appendChild(text);
-  var element = document.getElementById("new");
-  element.appendChild(tag);
+  let p = document.createTextNode("p");
   /* Update its src*/
   p.src = src;
 }
 
 /* Test for Appending */
+var tag = document.createElement("p");
+var text = document.createTextNode("Kanye says this");
+tag.appendChild(text);
+var element = document.getElementById("new");
+element.appendChild(tag);
