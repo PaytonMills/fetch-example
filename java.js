@@ -16,3 +16,10 @@ function updateQuoteSrc(src) {
   /* Update its src*/
   p.src = src;
 }
+
+/* Test */
+var tag = document.createElement("p");
+var text = document.createTextNode("Kanye says this");
+tag.appendChild(text);
+var element = document.getElementById("new");
+element.appendChild(tag);
