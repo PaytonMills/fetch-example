@@ -27,7 +27,7 @@ tag.appendChild(text);
 var element = document.getElementById("new");
 element.appendChild(tag); */
 
-function updateQuote(src) {
+function updateQuote(innerText) {
   //Get quote p element
   let p = document.querySelector("p");
   //Update innerText
