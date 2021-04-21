@@ -31,5 +31,5 @@ function updateQuote(innerText) {
   //Get quote p element
   let p = document.querySelector("p");
   //Update innerText
-  p.innerText = data.quote;
+  p.innerText = innerText;
 }
