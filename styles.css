@@ -13,7 +13,8 @@ button {
 }
 
 .button:hover {
-  background-color: rgb(136, 18, 18);
+  background-color: white;
+  color: black;
 }
 
 img {
